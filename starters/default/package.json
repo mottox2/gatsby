@@ -19,7 +19,7 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.2"
   },
   "keywords": [
     "gatsby"
@@ -28,7 +28,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "format": "prettier --write .",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
